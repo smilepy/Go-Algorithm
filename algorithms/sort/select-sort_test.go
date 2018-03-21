@@ -6,7 +6,7 @@ import (
 )
 
 func Test_select_sort(t *testing.T) {
-	array := []int{5, 3, 2, 6, 4, 1}
+	array := []int{5, 3, 2, 6, 4, 1,7}
 	fmt.Println("Initial array:", array)
 	SelectSort(array)
 	fmt.Println("SelectSort:", array)
