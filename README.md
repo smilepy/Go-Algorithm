@@ -94,7 +94,11 @@ func FlagSwapPositionBubbleSort(array []int) {}
 ```go
 func InsertSort(array []int) {}
 ```
+* [ShellSort](https://github.com/smilepy/Go-Algorithm/blob/master/algorithms/sort/shell-sort.go):
 
+```go
+func ShellSort(array []int) {}
+```
 * [SelectSort](https://github.com/RincLiu/Go-Algorithm/blob/master/algorithms/sort/select-sort.go):
 
 ```go
