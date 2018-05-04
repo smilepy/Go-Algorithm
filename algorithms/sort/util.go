@@ -8,7 +8,7 @@ func checkArray(array []int) {
 	}
 }
 
-func swap(array []int, index1 int, index2 int) {
+func Swap(array []int, index1 int, index2 int) {
 	tmp := array[index1]
 	array[index1] = array[index2]
 	array[index2] = tmp

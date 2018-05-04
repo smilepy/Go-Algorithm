@@ -16,7 +16,7 @@ func SelectSort(array []int) {
 			}
 		}
 		if minIndex != i {
-			swap(array, i, minIndex)
+			Swap(array, i, minIndex)
 		}
 	}
 }

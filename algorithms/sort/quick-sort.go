@@ -23,7 +23,7 @@ func partitionRecursion(array []int, left int, right int) {
 			// Swap the two elements we found to meke sure that,
 			// all values before 'low' element are less or equal than the pivot,
 			// and all values after 'high' element are greater or equal to the pivot.
-			swap(array, low, high)
+			Swap(array, low, high)
 			// Prepare for next scanning.
 			low++
 			high--
