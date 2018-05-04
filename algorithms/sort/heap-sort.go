@@ -10,7 +10,7 @@ var length int
 func HeapSort(array []int){
 	BuildMaxHeap(array)
 	for i:=len(array)-1;i>0;i-- {
-		swap(array,0,i)
+		Swap(array,0,i)
 		length--
 		heapify(array,0)
 	}
@@ -29,7 +29,7 @@ func heapify(array []int, i int) {
 	}
 
 	if largest != i {
-		swap(array, i, largest)
+		Swap(array, i, largest)
 		heapify(array, largest)
 	}
 }
